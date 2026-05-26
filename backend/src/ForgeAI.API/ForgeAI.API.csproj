@@ -11,4 +11,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ForgeAI.Application\ForgeAI.Application.csproj" />
+    <ProjectReference Include="..\ForgeAI.Infrastructure\ForgeAI.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
